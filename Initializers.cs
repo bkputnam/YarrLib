@@ -50,7 +50,6 @@ namespace YarrLib
 		private static string PrintBytes(byte[] b)
 		{
 			string[] results = new string[b.Length];
-			string result = "";
 			for(int i=0; i<b.Length; i++)
 			{
 				results[i] = Convert.ToString(b[i], 2).PadLeft(8, '0');
