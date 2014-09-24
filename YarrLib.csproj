@@ -43,6 +43,7 @@
     <Compile Include="Indexing.cs" />
     <Compile Include="Range.cs" />
     <Compile Include="Slice.cs" />
+    <Compile Include="InlineArithmetic.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

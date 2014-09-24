@@ -22,6 +22,17 @@ namespace YarrLib
 			return result;
 		}
 
+		public static int[] Add(int[] a, int b)
+		{
+			int size = a.Length;
+			var result = new int[size];
+			for (int i=0; i<size; i++)
+			{
+				result[i] = a[i] + b;
+			}
+			return result;
+		}
+
 		public static double[] Add(double[] a, double[] b)
 		{
 			if (a.Length != b.Length)
@@ -36,6 +47,17 @@ namespace YarrLib
 				result[i] = a[i] + b[i];
 			}
 
+			return result;
+		}
+
+		public static double[] Add(double[] a, double b)
+		{
+			int size = a.Length;
+			var result = new double[size];
+			for (int i=0; i<size; i++)
+			{
+				result[i] = a[i] + b;
+			}
 			return result;
 		}
 		#endregion
