@@ -5,7 +5,7 @@ namespace YarrLib
 {
 	public static partial class Yarr
 	{
-		private static Random RNG = new Random();
+		public static Random RNG = new Random();
 
 		public static T[] Repeat<T>(T val, int repetitions)
 		{
